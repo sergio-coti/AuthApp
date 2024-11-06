@@ -77,7 +77,7 @@ namespace Auth.Controllers
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
-            var expires = DateTime.UtcNow.AddMinutes(30);
+            var expires = DateTime.Now.AddMinutes(30);
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
@@ -88,7 +88,7 @@ namespace Auth.Controllers
             return new TokenInfo
             {
                 Token = new JwtSecurityTokenHandler().WriteToken(token),
-                GeneratedAt = DateTime.UtcNow,
+                GeneratedAt = DateTime.Now,
                 ExpiresAt = expires
             };
         }

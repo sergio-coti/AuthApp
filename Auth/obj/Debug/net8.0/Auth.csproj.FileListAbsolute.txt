@@ -38,3 +38,4 @@ C:\CSharp_SQ_Noite\Auth\Auth\obj\Debug\net8.0\refint\Auth.dll
 C:\CSharp_SQ_Noite\Auth\Auth\obj\Debug\net8.0\Auth.pdb
 C:\CSharp_SQ_Noite\Auth\Auth\obj\Debug\net8.0\Auth.genruntimeconfig.cache
 C:\CSharp_SQ_Noite\Auth\Auth\obj\Debug\net8.0\ref\Auth.dll
+C:\CSharp_SQ_Noite\Auth\Auth\obj\Debug\net8.0\Auth.sourcelink.json
