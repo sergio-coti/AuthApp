@@ -27,6 +27,8 @@ namespace Auth.Controllers
 
             var tokenInfo = _tokenGenerator.GenerateToken(user.Email);
 
+            Thread.Sleep(2000);
+
             return Ok(new
             {
                 token = tokenInfo.Token,
