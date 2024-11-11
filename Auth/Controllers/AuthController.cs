@@ -34,7 +34,10 @@ namespace Auth.Controllers
                 token = tokenInfo.Token,
                 generatedAt = tokenInfo.GeneratedAt,
                 expiresAt = tokenInfo.ExpiresAt,
-                user = user.Email
+                email = user.Email,
+                id = "AAC878A4-88BE-45CD-8C0A-2FEF60343B93",
+                name = "Usuário Administrador",
+                role = "ADMIN"
             });
         }
     }
